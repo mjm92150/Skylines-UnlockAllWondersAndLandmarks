@@ -19,27 +19,27 @@ namespace UnlockAllWondersAndLandmarks
             unlockParklifeLandmarks = false;
         }
 
-        [Checkbox("Unlock Unique Buildings(levels I - VI)")]
+        [Checkbox("Débloque les Monuments Uniques (Niveaux I à VI)")]
         public bool unlockUniqueBuildings { set; get; }
-        [Checkbox("Unlock Deluxe Landmarks (req. Deluxe Edition)")]
+        [Checkbox("Débloque Monuments/Bâtiments de Luxe (Deluxe Edition requis)")]
         public bool unlockDeluxeLandmarks { set; get; }
-        [Checkbox("Unlock European Landmarks (req. European biome / European Buildings Unlocker mod)")]
+        [Checkbox("Débloque les Monuments/Bâtiments Européen (European biome requis / Mod European Buildings Unlocker requis)")]
         public bool unlockEuroLandmarks { set; get; }
-        [Checkbox("Unlock Wonders (a.k.a Monuments)")]
+        [Checkbox("Débloque les Merveilles (a.k.a Monuments)")]
         public bool unlockWonders { set; get; }
-        [Checkbox("Unlock After Dark Landmarks (a.k.a Tourism & Leisure, req. After Dark DLC)")]
+        [Checkbox("Débloque les Monuments/Bâtiments d'After Dark (a.k.a Tourisme & Loisirs, DLC After Dark requis)")]
         public bool unlockAfterDarkLandmarks { set; get; }
-        [Checkbox("Unlock Snowfall Landmarks (req. Snowfall DLC + Winter biome/Winter Buildings Unlocker mod)")]
+        [Checkbox("Débloque les Monuments/Bâtiments de Snowfall (DLC Snowfall requis + Mod Winter biome/Winter Buildings Unlocker)")]
         public bool unlockSnowfallLandmarks { set; get; }
-        [Checkbox("Unlock Natural Disasters Landmarks (req. Natural Disasters DLC)")]
+        [Checkbox("Débloque les Monuments/Bâtiments de Natural Disasters (DLC Natural Disasters requis)")]
         public bool unlockNaturalDisastersLandmarks { set; get; }
-        [Checkbox("Unlock Mass Transit Landmarks (req. Mass Transit DLC)")]
+        [Checkbox("Débloque les Monuments/Bâtiments de Mass Transit (DLC Mass Transit requis)")]
         public bool unlockMassTransitLandmarks { set; get; }
-        [Checkbox("Unlock Green Cities Landmarks (req. Green Cities DLC)")]
+        [Checkbox("Débloque les Monuments/Bâtiments de Green Cities (DLC Green Cities requis)")]
         public bool unlockGreenCitiesLandmarks { set; get; }
-        [Checkbox("Unlock Concerts Landmarks (req. Concerts DLC)")]
+        [Checkbox("Débloque les Monuments/Bâtiments de Concerts (DLC Concerts DLC requis)")]
         public bool unlockConcertsLandmarks { set; get; }
-        [Checkbox("Unlock Parklife Landmarks (req. Parklife DLC)")]
+        [Checkbox("Débloque les Monuments/Bâtiments de Parklife (DLC Parklife requis)")]
         public bool unlockParklifeLandmarks { set; get; }
     }
 }
